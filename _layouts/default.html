@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academic-icons@1.1.0/css/academic-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../icon.jpg">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}
+      </h1>
+      <h2>
+        <div>Breaking Language Barriers in Multilingual Mathematical Reasoning: Insights and Observations
+        </div>
+      </h2>
+      <h2 class="project-tagline">
+          <div>Nuo Chen, Zinan Zheng, Ning Wu, Ming Gong, Yangqiu Song, Jia Li, Dongmei Zhang</div>
+          <!-- <div class="is-size-5 publication-authors">
+            HKUST(GZ),
+            HKUST, 
+            Microsoft 
+          </div> -->
+      </h2>
+      <!-- <h2>
+        <div class="is-size-5 publication-authors" >
+          <span class="author-block" >
+          <a href="" target="_blank" style="color: white;">Nuo Chen</a><sup>†</sup><sup>‡</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Zinan Zheng</a><sup>†</sup>,
+          </span>
+          <span class="author-block">
+          </span>
+          <a href="" target="_blank" style="color: white;">Ning Wu</a><sup>§</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Linjun Shou</a><sup>§</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Ming Gong</a><sup>§</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Yangqiu Song</a><sup>‡</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Dongmei Zhang</a><sup>§</sup>,
+          </span>
+          <span class="author-block">
+          <a href="" target="_blank" style="color: white;">Jia Li</a><sup>†</sup><sup>‡</sup>
+          </span>
+        </div>
+        <div class="is-size-5 publication-authors">
+          <span class="author-block">
+          <sup>†</sup>HKUST（GZ）,
+          <sup>‡</sup>HKUST, 
+          <sup>§</sup>Microsoft 
+        </div>
+        <div>
+        <span class="author-block"><a href="mailto:nchen022@connect.ust.hk" style="color: white;">nchen022@connect.ust.hk</a>
+          , <a href="mailto:jialee@ust.hk" style="color: white;">jialee@ust.hk</a> </span>
+        </div>
+      </h2> -->
+     
+      
+      <!-- {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %} -->
+      <a href="https://huggingface.co/datasets/Mathoctopus/GSM8KInstruct_Parallel" class="btn"><span style="font-size: 22px;">🤗</span> MGSM8KInstruct</a>
+      <a href="https://huggingface.co/datasets/Mathoctopus/MSVAMP" class="btn"><span style="font-size: 22px;">🤗</span> MSVAMP</a>
+      <a href="https://huggingface.co/Mathoctopus" class="btn"><span style="font-size: 22px;">🤗</span> Models</a>
+      <a href="https://github.com/microsoft/MathOctopus/tree/main" class="btn" >
+        <span class="icon" style="font-size: 22px;">
+          <i class="fab fa-github"></i>
+        </span> Code
+      </a>
+      <a href="https://arxiv.org/abs/2310.20246" class="btn">
+        <span style="font-size: 22px;">📜</span> Paper
+      </a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
