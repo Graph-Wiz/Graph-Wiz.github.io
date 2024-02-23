@@ -1,9 +1,9 @@
-# NExT-GPT
-## Any-to-Any Multimodal Large Language Model
+# GraphWiz
+## An Instruction-Following Language Model for Graph Problems
 
-This is the repository that contains the source code for the [NExT-GPT project page](https://next-gpt.github.io/).
+This is the repository that contains the source code for the [GraphWiz project page](https://graph-wiz.github.io/).
 
-If you use NExT-GPT in your project, please kindly cite:
+If you use GraphWiz in your project, please kindly cite:
 ```
 @articles{wu2023nextgpt,
   title={NExT-GPT: Any-to-Any Multimodal LLM},

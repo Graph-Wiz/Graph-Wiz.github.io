@@ -64,7 +64,7 @@
                                 <a href="https://squareroot3.github.io/">Jianheng Tang</a>,
                             </span>
                             <span class="author-block">
-                                <a href="https://sites.google.com/view/lijia">Jia Ji</a><sup>*</sup></span>
+                                <a href="https://sites.google.com/view/lijia">Jia Li</a><sup>*</sup></span>
                         </div>
 
                         <div class="is-size-5 publication-authors" style="margin-top: 10px;">
@@ -149,31 +149,23 @@
                     <h2 class="title is-2">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            While recently Multimodal Large Language Models (MM-LLMs) have made exciting strides, they
-                            mostly fall prey to the limitation
-                            of only input-side multimodal understanding, without the ability to produce content in
-                            multiple modalities.
-                            As we humans always perceive the world and communicate with people through various
-                            modalities, developing any-to-any MM-LLMs
-                            capable of accepting and delivering content in any modality becomes essential to human-level
-                            AI.
-                            To fill the gap, we present an end-to-end general-purpose any-to-any MM-LLM system,
-                            <b>NExT-GPT</b>.
-                            We connect an LLM with multimodal adaptors and different diffusion decoders, enabling
-                            NExT-GPT to perceive inputs and generate
-                            outputs in arbitrary combinations of text, images, videos, and audio.
-                            By leveraging the existing well-trained highly-performing encoders and decoders, NExT-GPT is
-                            tuned with only a small amount of
-                            parameter (1%) of certain projection layers, which not only benefits low-cost training and
-                            also facilitates convenient
-                            expansion to more potential modalities.
-                            Moreover, we introduce a modality-switching instruction tuning (MosIT) and manually curate a
-                            high-quality dataset for MosIT,
-                            based on which NExT-GPT is empowered with complex cross-modal semantic understanding and
-                            content generation.
-                            Overall, our research showcases the promising possibility of building an AI agent capable of
-                            modeling universal modalities,
-                            paving the way for more human-like AI research in the community.
+                            Large language models (LLMs) have achieved impressive success across several fields, but
+                            their proficiency in understanding and resolving complex graph problems is less explored. To
+                            bridge this gap, we introduce GraphInstruct, a novel and comprehensive instruction-tuning
+                            dataset designed to equip language models with the ability to tackle a broad spectrum of
+                            graph problems using explicit reasoning paths.
+                            Utilizing GraphInstruct, we build GraphWiz, an open-source language model capable of
+                            resolving various graph problem types while generating clear reasoning processes. To enhance
+                            the model's capability and reliability, we incorporate the Direct Preference Optimization
+                            (DPO) framework into the graph problem-solving context. The enhanced model, GraphWiz-DPO,
+                            achieves an average accuracy of 65% across nine tasks with different complexity levels,
+                            surpassing GPT-4 which has an average accuracy of 43.8%.
+                            Moreover, our research delves into the delicate balance between training data volume and
+                            model performance, highlighting the potential for overfitting with increased data.
+                            We also explore the transferability of the model's reasoning ability across different graph
+                            tasks, indicating the model's adaptability and practical application potential.
+                            Our investigation offers a new blueprint and valuable insights for developing LLMs
+                            specialized in graph reasoning and problem-solving.
                         </p>
                     </div>
                 </div>
