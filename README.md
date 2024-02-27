@@ -5,12 +5,11 @@ This is the repository that contains the source code for the [GraphWiz project p
 
 If you use GraphWiz in your project, please kindly cite:
 ```
-@articles{wu2023nextgpt,
-  title={NExT-GPT: Any-to-Any Multimodal LLM},
-  author={Shengqiong Wu, Hao Fei, Leigang Qu, Wei Ji, Tat-Seng Chua},
-  journal = {CoRR},
-  volume = {abs/2309.05519},
-  year={2023}
+@articles{chen2024graphwiz,
+  title={GraphWiz: An Instruction-Following Language Model for Graph Problems},
+  author={Nuo Chen, Yuhan Li, Jianheng Tang, Jia Li},
+  journal={arXiv preprint arXiv:2402.16029},
+  year={2024}
 }
 ```
 
